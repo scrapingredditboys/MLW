@@ -1,0 +1,4 @@
+Source link: 
+https://www.kaggle.com/springboardroger/naive-bayes-name-gender-classifier
+
+Rough python code is ready. Name is recognized as male or female.
