@@ -1,6 +1,6 @@
 ﻿# Sentence trees
-**Task:** Describing how it is possible to utilize Sentence Trees to create a feature space and assign certain priorities to elements within the feature space
+**Task:** Describing how it is possible to utilize Sentence Trees to finding quality features to add to Machine Learning Feature Space
 
-**Problems described:** Tokenization of sentences/words, PoS Labelling, Chunking data, NPs vs VPs, prioritization of certain NPs, Machine Learning issues
+**Problems described:** Tokenization of sentences/words, PoS Labelling, Chunking data, NPs vs VPs, finding relevant NNPs, Grammar rules for extracting good features, Kaggle examples, Machine Learning issues
 
 **Person responsible:** Bartłomiej Szymański
