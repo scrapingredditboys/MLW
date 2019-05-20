@@ -39,7 +39,7 @@ namechartdiff['gender'] = np.where(namechartdiff['Mpercent'] > 0.001, 'male', 'f
 
 
 # Break down the string of names into bigram blocks of
-# characters with CountVectorizer        [no idea why]
+# characters with CountVectorizer        
 char_vectorizer = CountVectorizer(analyzer='char', ngram_range=(2, 2))
 X = char_vectorizer.fit_transform(namechartdiff.index)
 X = X.tocsc()
@@ -71,6 +71,7 @@ print(test_accuracy)
 # Function
 def lookup(x):
     str(x)
+    print(x)
     new = char_vectorizer.transform([x])
     y_pred = clf.predict(new)
     if (y_pred == 1):
