@@ -118,9 +118,9 @@ def run_bert(data):
 	emb.index.name = "ID"
 
 	for i in range(len(data)):
-		P = data.loc[i,"Pronoun"].lower()
-		A = data.loc[i,"A"].lower()
-		B = data.loc[i,"B"].lower()
+		P = data.iloc[i,"Pronoun"].lower()
+		A = data.iloc[i,"A"].lower()
+		B = data.iloc[i,"B"].lower()
 
 		P_offset = compute_offset_no_spaces(data.loc[i,"Text"], data.loc[i,"Pronoun-offset"])
 		A_offset = compute_offset_no_spaces(data.loc[i,"Text"], data.loc[i,"A-offset"])
